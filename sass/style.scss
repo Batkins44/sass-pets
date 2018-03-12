@@ -1,0 +1,154 @@
+@import "_variables";
+
+body{
+    background-color:$primaryColor;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header{
+    background-color:$tertiaryColor;
+    border-radius:8px;
+    border:2px solid $secondaryColor;
+    padding:10px;
+    margin:10px;
+}
+
+main{
+    flex: 1;
+}
+
+article{
+    font-family:$tertiaryFont;
+    color:$secondaryColor;
+    width:40%;
+    background-color:$fourthColor;
+    border-radius:8px;
+    margin:15px;
+    padding-bottom:25px;
+    border:2px solid $secondaryColor;
+}
+
+.ad{
+    font-family:$tertiaryFont;
+    color:$secondaryColor;
+    width:90%;
+    background-color:$fourthColor;
+    border-radius:8px;
+    margin:15px;
+    padding-bottom:25px;
+    border:2px solid $secondaryColor;  
+}
+
+p{
+text-indent:40px;
+}
+
+.logo{
+    text-shadow: 1px 1px 5px $fourthColor, 5px 5px 25px black;
+    font-size:60px;
+}
+
+.article-container{
+display:flex;
+}
+
+.left{
+    float:left;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.right{
+    float:right;
+    padding-left:25px;
+    padding-right:25px;
+
+}
+
+footer{
+    background-color:$secondaryColor;
+    color:$fourthColor;
+    text-align:center;
+    border-radius:8px;
+    font-family:$tertiaryFont;
+    border:2px solid black;
+    padding-top:25px;
+    padding-bottom:25px;
+    
+
+}
+
+h1{
+    font-family:$primaryFont;
+    color:$secondaryColor;
+    text-align:center;
+    font-size:35px;
+
+}
+
+h2{
+    text-align:center;
+    color:$secondaryColor;
+    font-family:$primaryFont;
+}
+
+h3{
+font-family:$tertiaryFont;
+color:$secondaryColor;
+text-align:center;
+}
+
+
+input{
+    background-color:$tertiaryColor;
+    border:2px solid black;
+}
+
+
+button{
+    text-align:center;
+    border-radius:8px;
+    margin-top:10px;
+    border:2px solid black;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $tertiaryColor;
+}
+
+nav li {
+    float: left;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+nav li a {
+    display: block;
+    color: $secondaryColor;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:$secondaryFont;
+}
+
+nav li a:hover {
+    background-color: $primaryColor;
+    border-radius:8px;
+}
+
+li .active{
+    background-color: $fourthColor;
+    border-radius:8px;
+}
+
+#banner{
+    width:100%;
+}
